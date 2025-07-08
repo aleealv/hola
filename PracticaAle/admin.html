@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<title>Administrador</title>
+</head>
+<!--Valida según el rol -->
+<body onload="validarAdmin()"> 
+<header>
+	<a href="index.html">Home</a>
+	<a href="admin.html">Admin</a>
+	<a href="normal.html">UsuarioNormal</a>
+	<input type="text" id="Search">
+</header>
+
+<div class="data">
+	<div class="car">
+		<button onclick="Add()">Agregar usuarios</button>
+		<button onclick="Del()">Quitar usuarios</button>
+	</div>
+	<table id="tabla"></table>
+</div>
+</body>
+</html>

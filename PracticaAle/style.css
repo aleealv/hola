@@ -1,0 +1,123 @@
+body{
+	background: url("https://i.pinimg.com/736x/54/76/eb/5476ebdbca980e581ee88d1d8f6a7158.jpg");
+	background-size: 55%;
+}
+
+header{
+	height: 10vh;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: .10%;
+}
+
+header a{
+	font-size: 2vw;
+	margin-left: 1%;
+}
+
+footer{
+	background: #c6eaf7 5px;
+}
+
+.Segundo{
+	background: rgba(174, 236, 255, .6);
+	width: 200px;
+}
+
+.Formulario{
+	background: rgba(255,124,187, .7);
+	color: black;
+	width: 360px;
+	text-align: center;
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 10px;
+	box-shadow: 10px 10px rgba(0, 0, 0, .6);
+}
+
+.Formulario input{
+	width: 95%;
+	margin-bottom: 10px;
+}
+
+.Full{
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+	transition: 2s;
+}
+
+a{
+	font-size: 42px;
+	color: rgba(0,0,0);
+	text-shadow: rgb(0,0,0);
+}
+
+#fotoUsuario{
+	width: 50%;
+}
+header img{
+	height: 85%;
+}
+
+.data{
+	width: 100%;
+}
+
+.data #tabla{
+	background: cadetblue;
+	border-collapse: collapse;
+	width: 60%;
+	text-align: center;
+}
+
+td{
+	border: solid black 2px ;
+}
+
+th{
+	background: lightcoral;
+	border: solid black 3px;
+}
+
+.car{
+	float: right;
+	width: 25%;
+	padding-right: 3%;
+	font-size: 2vw;
+}
+
+.car button{
+	width: 100%;
+	margin-bottom: 3%;
+	font-size: 2vw;
+
+}
+
+.non{
+	background: #ff7abf;
+}
+
+.non:hover{
+	border: solid #ff0083 3px;
+	transition: .2s;
+}
+
+.non:active{
+	background: #ff7abf;
+}
+
+.par{
+	background: #b307e5;
+}
+
+.par:hover{
+	border: solid #ff7abf 3px;
+	transition: .2s;
+}
+
+.par:active{
+	background: #ff0083;
+}
